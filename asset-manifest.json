@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//fdamborsky.github.io/alpacagenerator/static/css/main.f1869b93.css",
+    "main.js": "/https//fdamborsky.github.io/alpacagenerator/static/js/main.5b3c9ba4.js",
+    "index.html": "/https//fdamborsky.github.io/alpacagenerator/index.html",
+    "main.f1869b93.css.map": "/https//fdamborsky.github.io/alpacagenerator/static/css/main.f1869b93.css.map",
+    "main.5b3c9ba4.js.map": "/https//fdamborsky.github.io/alpacagenerator/static/js/main.5b3c9ba4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1869b93.css",
+    "static/js/main.5b3c9ba4.js"
+  ]
+}
