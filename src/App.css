@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    position: relative;
+    gap: 25px;
+    max-height: 500px;
+}
+
+h1{
+    font-size: 48px;
+    color: rgb(0, 0, 152);
+    font-family: Poppins;
+}
+
+.category h1{
+    font-size: 32px;
+    color: rgb(0, 0, 152);
+    font-family: Poppins;
+}
+
+.title {
+    position: absolute;
+    top: -75px;
+}
+
+.buttons {
+    position: absolute;
+    bottom: -50px;
+}
+
+.alpaca {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.alpaca img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+.bg {
+    z-index: 1;
+}
+
+.neck {
+    z-index: 2;
+}
+
+.leg {
+    z-index: 2;
+}
+
+.nose {
+    z-index: 2;
+}
+
+.mouth {
+    z-index: 3;
+}
+
+.accesories {
+    z-index: 6;
+}
+
+.ears {
+    z-index: 1;
+}
+
+.hair {
+    z-index: 4;
+}
+
+.eyes {
+    z-index: 5;
+}
+
+.all-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 10px;
+    user-select: none;
+}
+
+.all-buttons a {
+    text-align: center;
+    padding: 10px 0px;
+    flex-grow: 1;
+    min-width: 100px;
+    max-width: 190px;
+    border-radius: 50px;
+    border: 2px solid rgb(2, 2, 136);
+    font-family: Poppins;
+    color: rgb(2, 2, 136);
+    cursor: pointer;
+}
+
+.all-buttons a:hover{
+    background-color: rgba(2, 2, 136, 0.1);
+}
+
+.all-buttons a.selected{
+    background-color: rgb(2, 2, 136);
+    color: #fff;
+}
+
+.category-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.buttons {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons button{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+    flex-grow: 1;
+    min-width: 100px;
+    max-width: 190px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: none;
+    color: rgb(2, 2, 136);
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
+
+.buttons button:hover{
+    color: #fff;
+    background-color: rgb(2, 2, 136);
+}
+
+.icon {
+    font-size: 21px;
+}
